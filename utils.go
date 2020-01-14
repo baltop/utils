@@ -1,6 +1,6 @@
 package utils
 
-func catch(err error) {
+func Catch(err error) {
     if err != nil {
         panic(err)
     }
